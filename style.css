@@ -268,3 +268,40 @@ footer{
   margin-top:-130px;
   padding:0 8% 80px;
 }
+/* ===== Hero Overlay ===== */
+
+.top-visual{
+    position:relative;
+    margin-bottom:0;
+}
+
+.hero-copy{
+
+    position:relative;
+
+    margin-top:-220px;
+
+    z-index:10;
+
+    text-align:center;
+
+    padding:0 8% 80px;
+}
+
+.hero-copy h1{
+    color:#fff;
+    text-shadow:0 3px 12px rgba(0,0,0,.5);
+}
+
+.hero-copy .lead{
+    color:#fff;
+    text-shadow:0 2px 8px rgba(0,0,0,.5);
+}
+
+.hero-copy .eyebrow{
+    color:#d6d9e0;
+}
+
+.hero-copy .btn{
+    margin-top:24px;
+}
