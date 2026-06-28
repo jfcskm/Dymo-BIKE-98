@@ -70,7 +70,7 @@ nav a:hover{
 
 .hero-copy{
   text-align:center;
-  padding:110px 8% 130px;
+  padding:50px 8% 100px;
   background:
     radial-gradient(circle at center,#17335f 0%,transparent 45%),
     linear-gradient(180deg,#08101d,#05070b);
