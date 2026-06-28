@@ -372,3 +372,55 @@ footer{
   font-size:18px;
   padding:16px 42px;
 }
+/* ===== Hero text on image - final override ===== */
+
+.top-visual{
+  position:relative !important;
+  padding-top:88px !important;
+  margin-bottom:0 !important;
+  line-height:0 !important;
+}
+
+.top-visual img{
+  width:100% !important;
+  height:auto !important;
+  display:block !important;
+}
+
+.hero-copy{
+  position:absolute !important;
+  top:50% !important;
+  left:6% !important;
+  transform:translateY(-50%) !important;
+
+  max-width:460px !important;
+  margin:0 !important;
+  padding:0 !important;
+
+  text-align:left !important;
+  background:transparent !important;
+  z-index:20 !important;
+}
+
+.hero-copy .eyebrow{
+  font-size:18px !important;
+  margin-bottom:18px !important;
+}
+
+.hero-copy h1{
+  font-size:44px !important;
+  line-height:1.15 !important;
+  margin-bottom:22px !important;
+}
+
+.hero-copy .lead{
+  font-size:17px !important;
+  line-height:1.8 !important;
+  max-width:440px !important;
+  margin-bottom:28px !important;
+}
+
+.hero-copy .btn{
+  font-size:17px !important;
+  padding:14px 36px !important;
+}
