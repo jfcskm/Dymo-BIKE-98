@@ -485,3 +485,54 @@ footer{
   font-size:16px !important;
   padding:14px 34px !important;
 }
+/* ===== Hero Reset: image first, text below ===== */
+
+.top-visual{
+  position:static !important;
+  padding-top:88px !important;
+  margin:0 auto !important;
+  line-height:0 !important;
+  background:#05070b !important;
+}
+
+.top-visual img{
+  display:block !important;
+  width:100% !important;
+  height:auto !important;
+}
+
+.hero-copy{
+  position:static !important;
+  transform:none !important;
+  width:auto !important;
+  max-width:1000px !important;
+  margin:0 auto !important;
+  padding:70px 8% 100px !important;
+  text-align:center !important;
+  background:
+    radial-gradient(circle at center,#17335f 0%,transparent 45%),
+    #05070b !important;
+}
+
+.hero-copy .eyebrow{
+  font-size:22px !important;
+  margin-bottom:24px !important;
+}
+
+.hero-copy h1{
+  font-size:64px !important;
+  line-height:1.15 !important;
+  margin-bottom:30px !important;
+}
+
+.hero-copy .lead{
+  font-size:22px !important;
+  line-height:1.8 !important;
+  max-width:850px !important;
+  margin:0 auto 40px !important;
+}
+
+.hero-copy .btn{
+  font-size:20px !important;
+  padding:16px 48px !important;
+}
