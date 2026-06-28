@@ -265,7 +265,7 @@ footer{
 }
 
 .hero-copy{
-  margin-top:-130px;
+  margin-top:-80px;
   padding:0 8% 80px;
 }
 /* ===== Hero Overlay ===== */
@@ -304,4 +304,22 @@ footer{
 
 .hero-copy .btn{
     margin-top:24px;
+}
+/* ===== Hero Layout ===== */
+
+.hero-copy{
+    max-width:900px;
+    margin:-80px auto 0;
+    padding:0 8% 80px;
+    text-align:left;
+    position:relative;
+    z-index:10;
+}
+
+.hero-copy .lead{
+    max-width:650px;
+}
+
+.hero-copy .btn{
+    margin-top:30px;
 }
