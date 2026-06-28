@@ -237,3 +237,17 @@ footer{
 .hero-copy{
     padding:40px 8% 80px;
 }
+.top-visual{
+  padding-top:88px;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+
+.top-visual img{
+  margin-bottom:0;
+}
+
+.hero-copy{
+  margin-top:-120px;
+  padding:0 8% 80px;
+}
