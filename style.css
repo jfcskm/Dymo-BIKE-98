@@ -434,3 +434,54 @@ footer{
   text-align:left !important;
   background:transparent !important;
 }
+/* ===== FORCE HERO FINAL ===== */
+
+.top-visual{
+  position:relative !important;
+  padding-top:0 !important;
+  margin:0 !important;
+  line-height:0 !important;
+}
+
+.top-visual img{
+  width:100% !important;
+  height:auto !important;
+  display:block !important;
+}
+
+.hero-copy{
+  position:absolute !important;
+  top:46% !important;
+  left:7% !important;
+  transform:translateY(-50%) !important;
+  width:430px !important;
+  max-width:430px !important;
+  margin:0 !important;
+  padding:0 !important;
+  text-align:left !important;
+  background:transparent !important;
+  z-index:50 !important;
+}
+
+.hero-copy .eyebrow{
+  font-size:16px !important;
+  margin-bottom:14px !important;
+}
+
+.hero-copy h1{
+  font-size:42px !important;
+  line-height:1.15 !important;
+  margin:0 0 20px !important;
+}
+
+.hero-copy .lead{
+  font-size:16px !important;
+  line-height:1.8 !important;
+  margin:0 0 28px !important;
+  max-width:430px !important;
+}
+
+.hero-copy .btn{
+  font-size:16px !important;
+  padding:14px 34px !important;
+}
