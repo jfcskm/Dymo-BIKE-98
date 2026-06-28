@@ -424,3 +424,13 @@ footer{
   font-size:17px !important;
   padding:14px 36px !important;
 }
+.hero-copy{
+  position:absolute !important;
+  top:42% !important;
+  left:6% !important;
+  right:auto !important;
+  transform:translateY(-50%) !important;
+  width:420px !important;
+  text-align:left !important;
+  background:transparent !important;
+}
