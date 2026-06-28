@@ -1,111 +1,232 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dymo BIKE 98｜ロードバイク用インソール</title>
-  <meta name="description" content="1Wも無駄にしないペダリングへ。Dymo BIKE98は、足元から推進力を整えるロードバイク用パーソナルセレクトインソールです。" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
-<body>
-  <header class="site-header">
-    <a href="#" class="logo">Dymo<span>BIKE 98</span></a>
-    <nav>
-      <a href="#problem">悩み</a>
-      <a href="#features">特徴</a>
-      <a href="#flow">流れ</a>
-      <a href="#contact" class="nav-cta">予約</a>
-    </nav>
-  </header>
+html{
+  scroll-behavior:smooth;
+}
 
-  <main>
-    <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">ROAD BIKE INSOLE</p>
-        <h1>1Wも無駄にしない<br>ペダリングへ。</h1>
-        <p class="lead">
-          足元を整えることは、推進力を整えること。<br>
-          50万件以上の足データと特許技術から生まれた、ロードバイク専用インソール。
-        </p>
-        <div class="buttons">
-          <a href="#contact" class="btn primary">フィッティング予約</a>
-          <a href="#about" class="btn secondary">製品を見る</a>
-        </div>
-      </div>
+body{
+  font-family:"Helvetica Neue","Noto Sans JP",sans-serif;
+  background:#05070b;
+  color:#fff;
+  line-height:1.7;
+}
 
-      <div class="hero-image">
-        <div class="image-card">
-          <img src="images/Hero.png" alt="Dymo BIKE 98">
-        </div>
-      </div>
-    </section>
+a{
+  color:inherit;
+  text-decoration:none;
+}
 
-    <section id="problem" class="section">
-      <p class="eyebrow">PROBLEM</p>
-      <h2>あなたの脚力は、<br>本当に推進力になっていますか。</h2>
-      <div class="problem-grid">
-        <div>ロングライド後に膝が痛い</div>
-        <div>踏んでいるのに力が逃げる</div>
-        <div>ペダリング時に膝がぶれる</div>
-        <div>後半になると脚が残らない</div>
-      </div>
-    </section>
+.site-header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1000;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:22px 6%;
+  background:rgba(5,7,11,.75);
+  backdrop-filter:blur(14px);
+}
 
-    <section id="about" class="section dark">
-      <p class="eyebrow">SOLUTION</p>
-      <h2>足を整えれば、<br>ペダリングは変わる。</h2>
-      <p>
-        Dymo BIKE98は、足をニュートラルポジションへ導き、
-        膝・骨盤・上半身まで安定したフォームをサポートします。
-      </p>
-    </section>
+.logo{
+  font-size:30px;
+  font-weight:800;
+  letter-spacing:.02em;
+}
 
-    <section id="features" class="section">
-      <p class="eyebrow">FEATURES</p>
-      <h2>選ばれる理由</h2>
-      <div class="feature-grid">
-        <article>
-          <h3>50万件以上の足データ</h3>
-          <p>足病学と科学的データをもとに、最適な形状を設計。</p>
-        </article>
-        <article>
-          <h3>パーソナルセレクト</h3>
-          <p>足の状態を分析し、最適なアーチタイプを選択。</p>
-        </article>
-        <article>
-          <h3>Dymo Shape 特許技術</h3>
-          <p>足部の安定性を高め、膝や骨盤のブレを抑制。</p>
-        </article>
-        <article>
-          <h3>超軽量 約40g</h3>
-          <p>軽量でありながら、安定したライドフィールを実現。</p>
-        </article>
-      </div>
-    </section>
+.logo span{
+  color:#8fb8ff;
+}
 
-    <section id="flow" class="section flow">
-      <p class="eyebrow">ORDER FLOW</p>
-      <h2>ご注文の流れ</h2>
-      <ol>
-        <li>足のサイズを計測</li>
-        <li>アーチ高を選択</li>
-        <li>フィッティング・試走</li>
-        <li>ご注文</li>
-      </ol>
-    </section>
+nav{
+  display:flex;
+  gap:28px;
+  font-size:15px;
+}
 
-    <section id="contact" class="section cta">
-      <h2>最後まで、脚力を無駄にしない。</h2>
-      <p>あなたに合った一足で、理想のペダリングを体感してください。</p>
-      <a href="#" class="btn primary large">フィッティングを予約する</a>
-    </section>
-  </main>
+nav a{
+  opacity:.82;
+}
 
-  <footer>
-    <p>© Dymo BIKE 98</p>
-  </footer>
+nav a:hover{
+  opacity:1;
+}
 
-  <script src="script.js"></script>
-</body>
-</html>
+.top-visual{
+  padding-top:88px;
+  background:#05070b;
+}
+
+.top-visual img{
+  width:100%;
+  display:block;
+}
+
+.hero-copy{
+  text-align:center;
+  padding:110px 8% 130px;
+  background:
+    radial-gradient(circle at center,#17335f 0%,transparent 45%),
+    linear-gradient(180deg,#08101d,#05070b);
+}
+
+.eyebrow{
+  color:#c4cede;
+  letter-spacing:.08em;
+  font-size:26px;
+  margin-bottom:32px;
+}
+
+h1{
+  font-size:72px;
+  line-height:1.15;
+  margin-bottom:36px;
+}
+
+.lead{
+  max-width:860px;
+  margin:0 auto 52px;
+  color:#d8deea;
+  font-size:26px;
+}
+
+.btn{
+  display:inline-block;
+  padding:18px 54px;
+  border-radius:999px;
+  background:#1f5fff;
+  color:white;
+  font-weight:700;
+  font-size:20px;
+  transition:.3s;
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 18px 40px rgba(31,95,255,.35);
+}
+
+.section{
+  padding:120px 8%;
+  text-align:center;
+}
+
+.section.dark{
+  background:#09111d;
+}
+
+.section h2{
+  font-size:48px;
+  line-height:1.35;
+  margin-bottom:64px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+  max-width:1180px;
+  margin:0 auto;
+}
+
+.card{
+  background:rgba(255,255,255,.045);
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:22px;
+  padding:34px 24px;
+  font-size:20px;
+}
+
+.card h3{
+  font-size:24px;
+  margin-bottom:16px;
+}
+
+.card p{
+  color:#cbd3df;
+  font-size:17px;
+}
+
+.spec{
+  max-width:760px;
+  margin:0 auto;
+  text-align:left;
+  background:rgba(255,255,255,.045);
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:24px;
+  padding:42px;
+  font-size:22px;
+}
+
+.spec p{
+  padding:14px 0;
+  border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+.spec p:last-child{
+  border-bottom:none;
+}
+
+.business{
+  background:
+    radial-gradient(circle at center,#17335f 0%,transparent 45%),
+    #05070b;
+}
+
+.business p{
+  max-width:760px;
+  margin:0 auto 44px;
+  color:#d8deea;
+  font-size:22px;
+}
+
+footer{
+  padding:44px;
+  text-align:center;
+  color:#8b95a7;
+  background:#030406;
+}
+
+@media(max-width:900px){
+  nav{
+    display:none;
+  }
+
+  .logo{
+    font-size:24px;
+  }
+
+  .hero-copy{
+    padding:80px 6% 100px;
+  }
+
+  .eyebrow{
+    font-size:18px;
+  }
+
+  h1{
+    font-size:44px;
+  }
+
+  .lead{
+    font-size:19px;
+  }
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .section h2{
+    font-size:34px;
+  }
+
+  .card{
+    font-size:18px;
+  }
+}
