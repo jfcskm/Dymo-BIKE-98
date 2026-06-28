@@ -1,232 +1,98 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dymo BIKE 98｜ロードバイク用インソール</title>
+  <meta name="description" content="Dymo BIKE 98は、足元からペダリング効率を整えるロードバイク用インソールです。">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-html{
-  scroll-behavior:smooth;
-}
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">Dymo<span>BIKE 98</span></a>
+    <nav>
+      <a href="#product">製品を見る</a>
+      <a href="#problem">悩み</a>
+      <a href="#features">特徴</a>
+      <a href="#fitting">サイズ・フィッティング</a>
+      <a href="#business">導入相談</a>
+    </nav>
+  </header>
 
-body{
-  font-family:"Helvetica Neue","Noto Sans JP",sans-serif;
-  background:#05070b;
-  color:#fff;
-  line-height:1.7;
-}
+  <main>
+    <section class="top-visual">
+      <img src="images/Hero.png" alt="Dymo BIKE 98 ロードバイク用インソール">
+    </section>
 
-a{
-  color:inherit;
-  text-decoration:none;
-}
+    <section id="product" class="hero-copy">
+      <p class="eyebrow">ROAD BIKE INSOLE</p>
+      <h1>1Wも無駄にしない<br>ペダリングへ。</h1>
+      <p class="lead">
+        足元を整えることは、推進力を整えること。<br>
+        50万件以上の足データと特許技術から生まれた、ロードバイク専用インソール。
+      </p>
+      <a href="#features" class="btn">製品を見る</a>
+    </section>
 
-.site-header{
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;
-  z-index:1000;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:22px 6%;
-  background:rgba(5,7,11,.75);
-  backdrop-filter:blur(14px);
-}
+    <section id="problem" class="section">
+      <p class="eyebrow">PROBLEM</p>
+      <h2>こんなお悩みはありませんか？</h2>
+      <div class="grid">
+        <div class="card">ロングライド後に膝が痛い</div>
+        <div class="card">踏んでいるのに力が逃げる</div>
+        <div class="card">ペダリング時に膝がぶれる</div>
+        <div class="card">後半になると脚が残らない</div>
+      </div>
+    </section>
 
-.logo{
-  font-size:30px;
-  font-weight:800;
-  letter-spacing:.02em;
-}
+    <section id="features" class="section dark">
+      <p class="eyebrow">FEATURES</p>
+      <h2>Dymo BIKE 98の特徴</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>足データに基づく設計</h3>
+          <p>50万件以上の足データをもとに、ロードバイク専用形状を設計。</p>
+        </div>
+        <div class="card">
+          <h3>足元の安定性をサポート</h3>
+          <p>アーチを支え、踏み込んだ力を効率よくペダルへ伝えます。</p>
+        </div>
+        <div class="card">
+          <h3>薄型・軽量設計</h3>
+          <p>シューズ内のフィット感を損なわない、約2mm・約40gの設計。</p>
+        </div>
+        <div class="card">
+          <h3>高耐久素材</h3>
+          <p>SLS 3Dプリント Nylon12を採用し、強度としなやかさを両立。</p>
+        </div>
+      </div>
+    </section>
 
-.logo span{
-  color:#8fb8ff;
-}
+    <section id="fitting" class="section">
+      <p class="eyebrow">SIZE & FITTING</p>
+      <h2>サイズ・フィッティング</h2>
+      <div class="spec">
+        <p><strong>サイズ：</strong>EU 38〜44（24〜28cm）</p>
+        <p><strong>アーチ高：</strong>2種類</p>
+        <p><strong>厚み：</strong>2mm</p>
+        <p><strong>重量：</strong>約40g</p>
+      </div>
+    </section>
 
-nav{
-  display:flex;
-  gap:28px;
-  font-size:15px;
-}
+    <section id="business" class="section business">
+      <p class="eyebrow">FOR BUSINESS</p>
+      <h2>導入相談<br>企業様向け</h2>
+      <p>
+        販売店・自転車ショップ・フィッティングサービス事業者様向けに、
+        Dymo BIKE 98の導入相談を承ります。
+      </p>
+      <a href="mailto:info@example.com" class="btn">導入について相談する</a>
+    </section>
+  </main>
 
-nav a{
-  opacity:.82;
-}
-
-nav a:hover{
-  opacity:1;
-}
-
-.top-visual{
-  padding-top:88px;
-  background:#05070b;
-}
-
-.top-visual img{
-  width:100%;
-  display:block;
-}
-
-.hero-copy{
-  text-align:center;
-  padding:110px 8% 130px;
-  background:
-    radial-gradient(circle at center,#17335f 0%,transparent 45%),
-    linear-gradient(180deg,#08101d,#05070b);
-}
-
-.eyebrow{
-  color:#c4cede;
-  letter-spacing:.08em;
-  font-size:26px;
-  margin-bottom:32px;
-}
-
-h1{
-  font-size:72px;
-  line-height:1.15;
-  margin-bottom:36px;
-}
-
-.lead{
-  max-width:860px;
-  margin:0 auto 52px;
-  color:#d8deea;
-  font-size:26px;
-}
-
-.btn{
-  display:inline-block;
-  padding:18px 54px;
-  border-radius:999px;
-  background:#1f5fff;
-  color:white;
-  font-weight:700;
-  font-size:20px;
-  transition:.3s;
-}
-
-.btn:hover{
-  transform:translateY(-3px);
-  box-shadow:0 18px 40px rgba(31,95,255,.35);
-}
-
-.section{
-  padding:120px 8%;
-  text-align:center;
-}
-
-.section.dark{
-  background:#09111d;
-}
-
-.section h2{
-  font-size:48px;
-  line-height:1.35;
-  margin-bottom:64px;
-}
-
-.grid{
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:24px;
-  max-width:1180px;
-  margin:0 auto;
-}
-
-.card{
-  background:rgba(255,255,255,.045);
-  border:1px solid rgba(255,255,255,.12);
-  border-radius:22px;
-  padding:34px 24px;
-  font-size:20px;
-}
-
-.card h3{
-  font-size:24px;
-  margin-bottom:16px;
-}
-
-.card p{
-  color:#cbd3df;
-  font-size:17px;
-}
-
-.spec{
-  max-width:760px;
-  margin:0 auto;
-  text-align:left;
-  background:rgba(255,255,255,.045);
-  border:1px solid rgba(255,255,255,.12);
-  border-radius:24px;
-  padding:42px;
-  font-size:22px;
-}
-
-.spec p{
-  padding:14px 0;
-  border-bottom:1px solid rgba(255,255,255,.1);
-}
-
-.spec p:last-child{
-  border-bottom:none;
-}
-
-.business{
-  background:
-    radial-gradient(circle at center,#17335f 0%,transparent 45%),
-    #05070b;
-}
-
-.business p{
-  max-width:760px;
-  margin:0 auto 44px;
-  color:#d8deea;
-  font-size:22px;
-}
-
-footer{
-  padding:44px;
-  text-align:center;
-  color:#8b95a7;
-  background:#030406;
-}
-
-@media(max-width:900px){
-  nav{
-    display:none;
-  }
-
-  .logo{
-    font-size:24px;
-  }
-
-  .hero-copy{
-    padding:80px 6% 100px;
-  }
-
-  .eyebrow{
-    font-size:18px;
-  }
-
-  h1{
-    font-size:44px;
-  }
-
-  .lead{
-    font-size:19px;
-  }
-
-  .grid{
-    grid-template-columns:1fr;
-  }
-
-  .section h2{
-    font-size:34px;
-  }
-
-  .card{
-    font-size:18px;
-  }
-}
+  <footer>
+    <p>© Dymo BIKE 98</p>
+  </footer>
+</body>
+</html>
