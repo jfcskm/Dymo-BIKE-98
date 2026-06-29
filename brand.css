@@ -1170,3 +1170,53 @@ backdrop-filter:blur(18px);
 .power-catch span{
     color:#2f79ff;
 }
+/* ===== Benefit Cards ===== */
+
+.power-benefits{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:32px;
+    margin:70px auto 40px;
+}
+
+.benefit-card{
+    background:#17191f;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:22px;
+    padding:28px;
+    text-align:center;
+    transition:.3s;
+}
+
+.benefit-card:hover{
+    transform:translateY(-8px);
+    border-color:#2d7dff;
+    box-shadow:0 20px 60px rgba(45,125,255,.25);
+}
+
+.benefit-card img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 22px;
+}
+
+.benefit-card h3{
+    color:#fff;
+    font-size:1.35rem;
+    line-height:1.5;
+    margin:0;
+}
+
+.power-catch{
+    text-align:center;
+    margin:70px 0 0;
+    font-size:3rem;
+    font-weight:800;
+    color:#fff;
+}
+
+.power-catch span{
+    color:#2d7dff;
+}
