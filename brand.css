@@ -442,3 +442,60 @@ backdrop-filter:blur(18px);
   display:block;
   filter:drop-shadow(0 0 12px rgba(110,162,255,.35));
 }
+/* ===== Problem Icon & Text Fix ===== */
+
+.problem-section .problem-card{
+  align-items:center !important;
+  background:
+    radial-gradient(circle at 18% 50%, rgba(60,120,255,.18), transparent 28%),
+    linear-gradient(145deg, rgba(255,255,255,.16), rgba(255,255,255,.055)) !important;
+}
+
+.problem-section .problem-icon{
+  width:128px !important;
+  height:128px !important;
+  background:
+    radial-gradient(circle, rgba(255,255,255,.95) 0%, rgba(220,235,255,.9) 58%, rgba(75,130,255,.28) 100%) !important;
+  border:1px solid rgba(150,190,255,.65) !important;
+  box-shadow:
+    0 0 34px rgba(70,130,255,.35),
+    inset 0 0 18px rgba(255,255,255,.55) !important;
+}
+
+.problem-section .problem-icon img{
+  width:96px !important;
+  height:96px !important;
+  object-fit:contain !important;
+  display:block !important;
+  filter:
+    brightness(1.35)
+    contrast(1.25)
+    saturate(1.35)
+    drop-shadow(0 0 10px rgba(30,90,255,.35)) !important;
+}
+
+.problem-section .problem-card > div:last-child{
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  color:#fff !important;
+}
+
+.problem-section .problem-card h3{
+  display:block !important;
+  color:#fff !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  font-size:26px !important;
+  line-height:1.45 !important;
+  margin-bottom:12px !important;
+}
+
+.problem-section .problem-card p{
+  display:block !important;
+  color:#d8e0ec !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  font-size:18px !important;
+  line-height:1.75 !important;
+}
