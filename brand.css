@@ -990,3 +990,22 @@ backdrop-filter:blur(18px);
     grid-template-columns:1fr 1fr;
   }
 }
+/* ===== Power Transfer ===== */
+
+.power-wide-image{
+    width:100%;
+    max-width:1400px;
+    margin:60px auto;
+    text-align:center;
+}
+
+.power-wide-image img{
+    width:100%;
+    max-width:1400px;
+    display:block;
+    margin:auto;
+    border-radius:28px;
+    box-shadow:
+        0 30px 90px rgba(0,0,0,.45),
+        0 0 50px rgba(32,92,255,.12);
+}
