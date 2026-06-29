@@ -834,3 +834,18 @@ backdrop-filter:blur(18px);
     padding-right:80px;
     box-sizing:border-box;
 }
+.why-image,
+.solution-image{
+    margin:50px auto;
+    text-align:center;
+}
+
+.why-image img,
+.solution-image img{
+    width:100%;
+    max-width:1200px;
+    border-radius:28px;
+    display:block;
+    margin:auto;
+    box-shadow:0 30px 80px rgba(0,0,0,.45);
+}
