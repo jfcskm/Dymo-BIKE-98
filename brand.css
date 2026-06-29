@@ -991,23 +991,18 @@ backdrop-filter:blur(18px);
   }
 }
 /* ===== Power Transfer ===== */
-
 .power-wide-image{
     width:100%;
-    max-width:1400px;
-    margin:60px auto;
-    text-align:center;
-}
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-.power-wide-image img{
-    width:100%;
-    max-width:1400px;
-    display:block;
-    margin:auto;
-    border-radius:28px;
-    box-shadow:
-        0 30px 90px rgba(0,0,0,.45),
-        0 0 50px rgba(32,92,255,.12);
+    margin:60px auto;
+    padding:0;
+
+    background:none;
+    border:none;
+    box-shadow:none;
 }
 /* =========================================
    POWER TRANSFER
@@ -1041,20 +1036,27 @@ backdrop-filter:blur(18px);
     color:#d5d9e6;
     text-align:center;
 }
-
 .power-wide-image{
     width:100%;
     display:flex;
     justify-content:center;
+    align-items:center;
+    margin:60px auto;
+    padding:0;
+    background:none;
+    border:none;
+    box-shadow:none;
 }
 
 .power-wide-image img{
     width:100%;
-    max-width:1450px;
-    border-radius:30px;
+    max-width:1100px;
+    height:auto;
+    display:block;
+    border-radius:24px;
     box-shadow:
-        0 40px 120px rgba(0,0,0,.45),
-        0 0 60px rgba(35,95,255,.10);
+        0 20px 60px rgba(0,0,0,.45),
+        0 0 40px rgba(30,90,255,.15);
 }
 
 .power-benefits{
