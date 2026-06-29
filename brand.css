@@ -857,3 +857,136 @@ backdrop-filter:blur(18px);
         0 24px 70px rgba(0,0,0,.45),
         0 0 40px rgba(30,90,255,.08);
 }
+/* ===== Power Transfer Section ===== */
+
+.power-section{
+  max-width:1280px;
+  margin:160px auto;
+  padding:0 80px;
+  text-align:center;
+}
+
+.power-section h2{
+  font-size:52px;
+  line-height:1.35;
+  margin:24px 0 70px;
+}
+
+.power-compare{
+  display:grid;
+  grid-template-columns:1fr 70px 1fr;
+  gap:28px;
+  align-items:center;
+  margin-bottom:120px;
+}
+
+.power-panel{
+  padding:36px;
+  border-radius:34px;
+  background:linear-gradient(145deg,rgba(255,255,255,.1),rgba(255,255,255,.035));
+  border:1px solid rgba(255,255,255,.16);
+  box-shadow:0 32px 90px rgba(0,0,0,.45);
+  text-align:left;
+}
+
+.power-label{
+  display:inline-block;
+  padding:10px 28px;
+  border-radius:999px;
+  background:#1f5fff;
+  color:white;
+  font-weight:800;
+  font-size:18px;
+  margin-bottom:28px;
+}
+
+.bad-panel .power-label{
+  background:#8a8a8a;
+}
+
+.power-image-box,
+.power-image-wide{
+  min-height:340px;
+  border-radius:26px;
+  background:rgba(255,255,255,.06);
+  border:1px dashed rgba(255,255,255,.2);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#8fa4c6;
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+.power-panel ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.power-panel li{
+  font-size:18px;
+  line-height:1.75;
+  color:#d5deea;
+  margin-bottom:18px;
+}
+
+.power-panel li strong{
+  color:#fff;
+  font-size:22px;
+}
+
+.power-arrow{
+  color:#1f5fff;
+  font-size:54px;
+  font-weight:900;
+}
+
+.power-message{
+  margin-bottom:48px;
+}
+
+.power-benefits{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+  margin:0 auto 60px;
+}
+
+.power-benefits div{
+  padding:18px 16px;
+  border-radius:999px;
+  background:#1f5fff;
+  color:white;
+  font-weight:800;
+  font-size:18px;
+}
+
+.power-image-wide{
+  min-height:420px;
+  max-width:1100px;
+  margin:0 auto;
+}
+
+@media(max-width:900px){
+  .power-section{
+    padding:0 28px;
+    margin:100px auto;
+  }
+
+  .power-section h2{
+    font-size:34px;
+  }
+
+  .power-compare{
+    grid-template-columns:1fr;
+  }
+
+  .power-arrow{
+    transform:rotate(90deg);
+  }
+
+  .power-benefits{
+    grid-template-columns:1fr 1fr;
+  }
+}
