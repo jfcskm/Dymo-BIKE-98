@@ -353,9 +353,10 @@ a{
 .problem-section .problem-card{
   display:flex !important;
   align-items:center !important;
-  gap:32px !important;
+  gap:40px !important;
+  min-height:240px;
   text-align:left !important;
-  padding:42px !important;
+  padding:56px !important;
   border-radius:28px !important;
   background:linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.03)) !important;
   border:1px solid rgba(255,255,255,.14) !important;
