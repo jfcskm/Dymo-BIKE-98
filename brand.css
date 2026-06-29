@@ -1499,3 +1499,12 @@ backdrop-filter:blur(18px);
 .product-showcase img:hover{
     transform:scale(1.03);
 }
+/* ===== Intro Note ===== */
+
+.intro-note{
+    margin-top:16px;
+    font-size:15px;
+    color:rgba(255,255,255,.72);
+    line-height:1.7;
+    text-align:center;
+}
