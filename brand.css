@@ -425,3 +425,20 @@ backdrop-filter:blur(18px);
     0 0 40px rgba(45,108,255,.12),
     inset 0 1px 0 rgba(255,255,255,.16) !important;
 }
+.problem-section .problem-card:hover{
+  transform:translateY(-8px);
+  border-color:rgba(111,162,255,.45) !important;
+  box-shadow:
+    0 40px 110px rgba(0,0,0,.55),
+    0 0 40px rgba(45,108,255,.12),
+    inset 0 1px 0 rgba(255,255,255,.16) !important;
+}
+
+/* ここから追加 */
+.problem-icon img{
+  width:90px;
+  height:90px;
+  object-fit:contain;
+  display:block;
+  filter:drop-shadow(0 0 12px rgba(110,162,255,.35));
+}
