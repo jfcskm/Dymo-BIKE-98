@@ -288,3 +288,55 @@ a{
     gap:20px;
   }
 }
+/* ===== Force Problem Card Layout ===== */
+
+.problem-section .problem-cards{
+  max-width:1180px !important;
+  margin:70px auto 0 !important;
+  display:grid !important;
+  grid-template-columns:repeat(2, minmax(0, 1fr)) !important;
+  gap:28px !important;
+}
+
+.problem-section .problem-card{
+  display:flex !important;
+  align-items:center !important;
+  gap:32px !important;
+  text-align:left !important;
+  padding:42px !important;
+  border-radius:28px !important;
+  background:linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.03)) !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+  box-shadow:0 24px 80px rgba(0,0,0,.35) !important;
+}
+
+.problem-section .problem-icon{
+  width:92px !important;
+  height:92px !important;
+  border-radius:50% !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  flex-shrink:0 !important;
+  color:#6ea2ff !important;
+  font-size:22px !important;
+  font-weight:800 !important;
+  background:rgba(255,255,255,.04) !important;
+  border:1px solid rgba(255,255,255,.1) !important;
+}
+
+.problem-section .problem-card h3{
+  font-size:25px !important;
+  margin-bottom:10px !important;
+}
+
+.problem-section .problem-card p{
+  color:#c9d3df !important;
+  font-size:18px !important;
+}
+
+@media(max-width:900px){
+  .problem-section .problem-cards{
+    grid-template-columns:1fr !important;
+  }
+}
