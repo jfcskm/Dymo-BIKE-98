@@ -499,3 +499,51 @@ backdrop-filter:blur(18px);
   font-size:18px !important;
   line-height:1.75 !important;
 }
+/* ===== Problem Icon Size & Text Restore ===== */
+
+.problem-section .problem-card{
+  justify-content:flex-start !important;
+}
+
+.problem-section .problem-icon{
+  width:140px !important;
+  height:140px !important;
+  min-width:140px !important;
+  background:rgba(255,255,255,.08) !important;
+  border:1px solid rgba(130,170,255,.35) !important;
+  box-shadow:
+    0 0 28px rgba(70,130,255,.25),
+    inset 0 0 24px rgba(255,255,255,.08) !important;
+}
+
+.problem-section .problem-icon img{
+  width:125px !important;
+  height:125px !important;
+  object-fit:contain !important;
+  display:block !important;
+  filter:drop-shadow(0 0 10px rgba(100,150,255,.4)) !important;
+}
+
+.problem-section .problem-card div:not(.problem-icon){
+  display:block !important;
+  opacity:1 !important;
+  visibility:visible !important;
+  color:#ffffff !important;
+  position:relative !important;
+  z-index:5 !important;
+}
+
+.problem-section .problem-card h3{
+  display:block !important;
+  color:#ffffff !important;
+  font-size:27px !important;
+  line-height:1.45 !important;
+  margin-bottom:12px !important;
+}
+
+.problem-section .problem-card p{
+  display:block !important;
+  color:#d8e0ec !important;
+  font-size:18px !important;
+  line-height:1.75 !important;
+}
