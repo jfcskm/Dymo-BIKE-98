@@ -826,4 +826,11 @@ backdrop-filter:blur(18px);
     height:820px;
 
 }
-
+.mechanism-section{
+    width:100%;
+    max-width:1280px;
+    margin:140px auto;
+    padding-left:80px;
+    padding-right:80px;
+    box-sizing:border-box;
+}
