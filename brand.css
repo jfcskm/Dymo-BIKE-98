@@ -1475,3 +1475,29 @@ backdrop-filter:blur(18px);
     }
 
 }
+/* ===== Product Showcase ===== */
+
+.product-showcase{
+    width:100%;
+    text-align:center;
+    margin:70px auto 90px;
+}
+
+.product-showcase img{
+    width:100%;
+    max-width:700px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+
+    transition:.35s ease;
+
+    filter:
+        drop-shadow(0 20px 45px rgba(0,0,0,.45));
+}
+
+.product-showcase img:hover{
+    transform:translateY(-6px) scale(1.02);
+
+    filter:
+        drop-shadow(0 28
