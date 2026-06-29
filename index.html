@@ -161,12 +161,57 @@
   <img src="images/beforeafter.png" alt="Dymo BIKE 98 Before After">
 </div>
   
-  <div class="power-benefits">
-    <div>足元が安定</div>
-    <div>力を無駄なく伝達</div>
-    <div>関節軸が安定</div>
-    <div>長時間でも効率的なライドへ</div>
-  </div>
+ /* ===== Final Benefit Card Override ===== */
+
+.power-benefits{
+  display:grid !important;
+  grid-template-columns:repeat(4,1fr) !important;
+  gap:32px !important;
+  max-width:1400px !important;
+  margin:80px auto 40px !important;
+}
+
+.power-benefits .benefit-card{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:flex-start !important;
+  padding:22px !important;
+  border-radius:26px !important;
+  background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.035)) !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+  box-shadow:0 24px 70px rgba(0,0,0,.35) !important;
+}
+
+.power-benefits .benefit-card img{
+  width:100% !important;
+  max-width:260px !important;
+  aspect-ratio:1 / 1 !important;
+  object-fit:contain !important;
+  display:block !important;
+  margin:0 auto 24px !important;
+  border-radius:18px !important;
+}
+
+.power-benefits .benefit-card h3{
+  font-size:24px !important;
+  line-height:1.45 !important;
+  color:#fff !important;
+  text-align:center !important;
+  margin:0 !important;
+}
+
+.power-catch{
+  margin:80px auto 20px !important;
+  text-align:center !important;
+  font-size:56px !important;
+  font-weight:900 !important;
+  color:#fff !important;
+}
+
+.power-catch span{
+  color:#2f79ff !important;
+}
 
 </section>
   <section id="features" class="section section-dark">
