@@ -704,3 +704,126 @@ backdrop-filter:blur(18px);
 .problem-section .problem-card{
   gap:48px !important;
 }
+/* =======================================
+   WHY / SOLUTION
+======================================= */
+
+.mechanism-section{
+
+    max-width:1280px;
+
+    margin:160px auto;
+
+    padding:0 40px;
+
+    text-align:center;
+
+}
+
+.mechanism-section h2{
+
+    font-size:56px;
+
+    line-height:1.25;
+
+    margin:24px 0 32px;
+
+}
+
+.mechanism-lead{
+
+    max-width:980px;
+
+    margin:0 auto 60px;
+
+    font-size:23px;
+
+    color:#d5dce8;
+
+    line-height:1.9;
+
+}
+
+.mechanism-caption{
+
+    max-width:920px;
+
+    margin:55px auto 0;
+
+    color:#c8d0dc;
+
+    font-size:21px;
+
+    line-height:1.9;
+
+}
+
+
+/* ---------- 画像の枠 ---------- */
+
+.image-placeholder{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:70px auto;
+
+    border-radius:34px;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    background:
+
+    linear-gradient(
+
+    145deg,
+
+    rgba(255,255,255,.07),
+
+    rgba(255,255,255,.02)
+
+    );
+
+    backdrop-filter:blur(20px);
+
+    color:#8aa0c8;
+
+    font-size:24px;
+
+    letter-spacing:.08em;
+
+    box-shadow:
+
+    0 40px 120px rgba(0,0,0,.45);
+
+}
+
+
+/* ---------- 画像① ---------- */
+
+.image-placeholder-large{
+
+    width:100%;
+
+    max-width:1180px;
+
+    height:720px;
+
+}
+
+
+/* ---------- 画像② ---------- */
+
+.image-placeholder-tall{
+
+    width:100%;
+
+    max-width:1180px;
+
+    height:820px;
+
+}
+
