@@ -1508,3 +1508,73 @@ backdrop-filter:blur(18px);
     line-height:1.7;
     text-align:center;
 }
+/* ===== Company Links Section ===== */
+
+.company-links-section{
+  max-width:1280px;
+  margin:80px auto 140px;
+  padding:0 60px;
+}
+
+.company-links{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:36px;
+}
+
+.company-card{
+  padding:38px;
+  border-radius:28px;
+  text-align:center;
+  background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.035));
+  border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 28px 80px rgba(0,0,0,.42);
+}
+
+.company-role{
+  color:#7fb0ff;
+  font-size:16px;
+  letter-spacing:.18em;
+  font-weight:700;
+  margin-bottom:14px;
+}
+
+.company-card h3{
+  font-size:24px;
+  line-height:1.5;
+  margin-bottom:26px;
+  color:#fff;
+}
+
+.company-btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:120px;
+  padding:24px;
+  border-radius:20px;
+  background:#fff;
+  transition:.3s ease;
+}
+
+.company-btn:hover{
+  transform:translateY(-6px);
+  box-shadow:0 20px 50px rgba(47,121,255,.22);
+}
+
+.company-btn img{
+  max-width:100%;
+  max-height:74px;
+  object-fit:contain;
+  display:block;
+}
+
+@media(max-width:800px){
+  .company-links-section{
+    padding:0 28px;
+  }
+
+  .company-links{
+    grid-template-columns:1fr;
+  }
+}
