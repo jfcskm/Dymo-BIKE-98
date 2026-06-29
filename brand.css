@@ -244,13 +244,19 @@ a{
 .problem-card{
   display:flex;
   align-items:center;
-  gap:32px;
+  gap:40px;
   text-align:left;
-  padding:42px;
+  padding:56px;
+  min-height:240px;
   border-radius:28px;
-  background:linear-gradient(145deg,rgba(255,255,255,.09),rgba(255,255,255,.03));
-  border:1px solid rgba(255,255,255,.14);
-  box-shadow:0 24px 80px rgba(0,0,0,.35);
+background:
+  linear-gradient(145deg, rgba(255,255,255,.13), rgba(255,255,255,.035));
+border:1px solid rgba(255,255,255,.22);
+box-shadow:
+  0 30px 90px rgba(0,0,0,.45),
+  inset 0 1px 0 rgba(255,255,255,.12);
+backdrop-filter:blur(18px);
+  transition:.35s ease;
 }
 
 .problem-icon{
