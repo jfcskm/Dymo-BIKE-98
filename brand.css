@@ -547,3 +547,129 @@ backdrop-filter:blur(18px);
   font-size:18px !important;
   line-height:1.75 !important;
 }
+/* ===== Apple Style Problem Cards ===== */
+
+.problem-card{
+    display:flex;
+    align-items:center;
+    gap:42px !important;
+
+    padding:42px 48px !important;
+
+    border-radius:30px;
+
+    background:
+        linear-gradient(
+        145deg,
+        rgba(255,255,255,.10),
+        rgba(255,255,255,.045)
+        );
+
+    border:1px solid rgba(255,255,255,.18);
+
+    backdrop-filter:blur(22px);
+
+    transition:.35s ease;
+
+    box-shadow:
+        0 24px 70px rgba(0,0,0,.45),
+        inset 0 1px 0 rgba(255,255,255,.10);
+}
+
+
+/* ---------- Hover ---------- */
+
+.problem-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:rgba(110,170,255,.55);
+
+    box-shadow:
+
+        0 40px 90px rgba(0,0,0,.55),
+
+        0 0 40px rgba(70,130,255,.18),
+
+        inset 0 1px 0 rgba(255,255,255,.18);
+
+}
+
+
+/* ---------- Icon Circle ---------- */
+
+.problem-icon{
+
+    width:170px !important;
+    height:170px !important;
+    min-width:170px !important;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+
+        radial-gradient(circle at 35% 35%,
+
+        rgba(255,255,255,.98),
+
+        rgba(236,242,255,.93));
+
+    border:1px solid rgba(255,255,255,.95);
+
+    box-shadow:
+
+        0 0 65px rgba(70,130,255,.35),
+
+        inset 0 3px 15px rgba(255,255,255,.75);
+
+}
+
+
+/* ---------- Icon ---------- */
+
+.problem-icon img{
+
+    width:130px !important;
+    height:130px !important;
+
+    object-fit:contain;
+
+    filter:
+
+        drop-shadow(0 0 12px rgba(40,110,255,.45));
+
+}
+
+
+/* ---------- Title ---------- */
+
+.problem-text h3{
+
+    font-size:32px !important;
+
+    font-weight:700;
+
+    color:#ffffff;
+
+    margin-bottom:18px;
+
+    line-height:1.35;
+
+}
+
+
+/* ---------- Description ---------- */
+
+.problem-text p{
+
+    font-size:20px !important;
+
+    color:#d9dde6;
+
+    line-height:1.8;
+
+}
