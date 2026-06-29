@@ -399,3 +399,29 @@ backdrop-filter:blur(18px);
     grid-template-columns:1fr !important;
   }
 }
+/* ===== Problem Cards Final Layout ===== */
+
+.problem-section{
+  max-width:1400px;
+  margin:0 auto;
+}
+
+.problem-section .problem-cards{
+  grid-template-columns:repeat(2, 1fr) !important;
+}
+
+.problem-section .problem-icon{
+  width:120px !important;
+  height:120px !important;
+  font-size:28px !important;
+  box-shadow:inset 0 0 30px rgba(111,162,255,.12);
+}
+
+.problem-section .problem-card:hover{
+  transform:translateY(-8px);
+  border-color:rgba(111,162,255,.45) !important;
+  box-shadow:
+    0 40px 110px rgba(0,0,0,.55),
+    0 0 40px rgba(45,108,255,.12),
+    inset 0 1px 0 rgba(255,255,255,.16) !important;
+}
