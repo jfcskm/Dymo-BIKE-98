@@ -839,13 +839,21 @@ backdrop-filter:blur(18px);
     margin:50px auto;
     text-align:center;
 }
+.why-image,
+.solution-image{
+    text-align:center;
+    margin:60px auto;
+}
 
 .why-image img,
 .solution-image img{
-    width:100%;
-    max-width:1200px;
-    border-radius:28px;
+    width:65%;
+    max-width:780px;
+    height:auto;
     display:block;
-    margin:auto;
-    box-shadow:0 30px 80px rgba(0,0,0,.45);
+    margin:0 auto;
+    border-radius:24px;
+    box-shadow:
+        0 24px 70px rgba(0,0,0,.45),
+        0 0 40px rgba(30,90,255,.08);
 }
