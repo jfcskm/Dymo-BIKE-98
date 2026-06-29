@@ -673,3 +673,34 @@ backdrop-filter:blur(18px);
     line-height:1.8;
 
 }
+/* ===== Final Icon Override ===== */
+
+.problem-section .problem-icon{
+  width:170px !important;
+  height:170px !important;
+  min-width:170px !important;
+  background:#f4f8ff !important;
+  border:1px solid rgba(255,255,255,.95) !important;
+  box-shadow:
+    0 0 55px rgba(90,150,255,.45),
+    inset 0 0 22px rgba(255,255,255,.75) !important;
+}
+
+.problem-section .problem-icon img{
+  width:145px !important;
+  height:145px !important;
+  max-width:none !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  display:block !important;
+  transform:none !important;
+  filter:
+    brightness(1.25)
+    contrast(1.2)
+    saturate(1.35)
+    drop-shadow(0 0 10px rgba(40,110,255,.45)) !important;
+}
+
+.problem-section .problem-card{
+  gap:48px !important;
+}
