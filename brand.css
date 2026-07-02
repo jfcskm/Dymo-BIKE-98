@@ -1578,3 +1578,128 @@ backdrop-filter:blur(18px);
     grid-template-columns:1fr;
   }
 }
+/* ===== Mobile Final Fix ===== */
+
+@media(max-width:768px){
+
+  body{
+    overflow-x:hidden;
+  }
+
+  .header{
+    padding:18px 20px;
+  }
+
+  .logo{
+    font-size:24px;
+  }
+
+  .nav{
+    display:none;
+  }
+
+  .hero img{
+    width:100%;
+    height:auto;
+  }
+
+  .intro,
+  .section,
+  .mechanism-section,
+  .power-section,
+  .patent-section,
+  .doctor-section,
+  .company-links-section{
+    width:100%;
+    padding-left:22px !important;
+    padding-right:22px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+
+  h1,
+  .intro h1{
+    font-size:38px !important;
+    line-height:1.25 !important;
+  }
+
+  h2,
+  .section h2,
+  .mechanism-section h2,
+  .power-section h2,
+  .patent-section h2,
+  .doctor-section h2{
+    font-size:30px !important;
+    line-height:1.35 !important;
+  }
+
+  p,
+  .intro p,
+  .mechanism-lead,
+  .mechanism-caption,
+  .doctor-text p,
+  .patent-text p{
+    font-size:16px !important;
+    line-height:1.8 !important;
+  }
+
+  .problem-cards,
+  .cards,
+  .power-benefits,
+  .company-links{
+    grid-template-columns:1fr !important;
+  }
+
+  .problem-card,
+  .benefit-card,
+  .patent-content,
+  .doctor-content,
+  .company-card{
+    padding:26px !important;
+  }
+
+  .problem-icon{
+    width:120px !important;
+    height:120px !important;
+    min-width:120px !important;
+  }
+
+  .problem-icon img{
+    width:95px !important;
+    height:95px !important;
+  }
+
+  .power-wide-image img,
+  .why-image img,
+  .solution-image img{
+    width:100% !important;
+    max-width:100% !important;
+  }
+
+  .product-showcase img{
+    width:80% !important;
+    max-width:360px !important;
+    min-width:0 !important;
+  }
+
+  .patent-content,
+  .doctor-content{
+    grid-template-columns:1fr !important;
+    text-align:center !important;
+  }
+
+  .doctor-image img{
+    max-width:220px !important;
+  }
+
+  .power-catch{
+    font-size:32px !important;
+    line-height:1.35 !important;
+  }
+
+  .spec{
+    padding:28px !important;
+    font-size:16px !important;
+  }
+
+}
