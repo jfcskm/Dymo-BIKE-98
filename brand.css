@@ -1796,3 +1796,25 @@ backdrop-filter:blur(18px);
     padding:30px 20px !important;
   }
 }
+/* ===== Problem Cards Mobile Fix ===== */
+
+@media(max-width:768px){
+
+  .problem-section .problem-cards,
+  .problem-cards{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    width:100% !important;
+    max-width:100% !important;
+    gap:24px !important;
+  }
+
+  .problem-section .problem-card,
+  .problem-card{
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+    box-sizing:border-box !important;
+  }
+
+}
